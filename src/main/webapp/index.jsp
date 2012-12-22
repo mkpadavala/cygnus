@@ -1,3 +1,4 @@
+<%@ page import="com.padavala.loom.Hello" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +17,12 @@
 
 <body style="background: #ffffff;">
 	<h1 align=center>My Projects</h1>
+	
+	<div>
+		<% 
+			out.write(Hello.sayHello());
+		%>
+	</div>
 	
 </body>
 </html>
