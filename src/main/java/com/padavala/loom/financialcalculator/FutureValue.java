@@ -43,7 +43,7 @@ public class FutureValue {
 		try {
 			System.out.println(df.format(fv.futureValueOfSingleAmount(100, 8, 96)));
 			
-			System.out.println(df.format(fv.futureValueOfAnnuity(100, 10, 2, Frequency.MONTHLY)));
+			System.out.println(df.format(fv.futureValueOfAnnuity(100, 8, 2, Frequency.MONTHLY)));
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
